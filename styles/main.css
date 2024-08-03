@@ -4,3 +4,26 @@
     box-sizing: border-box;
 }
 
+body{
+    display: flex;
+    height: 100vh;
+}
+
+header{
+    width: 300px;
+    background-color: lightblue;
+}
+
+main{
+    width: calc(100% - 250px);
+    background-color: lightcoral;
+}
+
+.nav-header{
+    display: flex;
+}
+
+.nav-link img, header img{
+    width: 40px;
+    height: 40px;
+}
