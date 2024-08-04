@@ -1,0 +1,44 @@
+.nav-header{
+
+}
+
+nav{
+    display: grid;
+    grid-template: 100px repeat(9, 1fr) / 250px;
+    gap: 25px;
+    color: white;
+}
+
+.nav-header{
+    display: flex;
+    width: 250px;
+    height: 60px;
+    align-items: center;
+    margin-left: 25px;
+    font-size: 1.25rem;
+}
+
+.nav-link{
+    margin: 15px 0 15px 25px;
+    list-style-type: none;
+}
+
+.nav-link-container a{
+    display: flex;
+    align-items: center;
+}
+
+.nav-link-container img{
+    margin-right: 15px;
+}
+
+.nav-link a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.15rem;
+}
+
+.nav-link img, header img{
+    width: 30px;
+    height: 30px;
+}

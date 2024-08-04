@@ -4,50 +4,64 @@
         <meta charset="UTF-8">
         <title>Admin Dashboard</title>
         <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/navigation.css">
+        <link rel="stylesheet" href="styles/content.css">
     </head>
     <body>
         <header>
-            <div class="nav-header">
-                <img src="./icons/dashboard.svg" alt="logo">
-                <h1>Dashboard</h1>
-            </div>
             <nav>
+                <div class="nav-header">
+                    <img src="icons/navigation/dashboard.svg" alt="logo">
+                    <h1>Dashboard</h1>
+                </div>
                 <div class="nav-views">
                     <ul>
                         <li class="nav-link">
                             <div class="nav-link-container">
-                                <img src="./icons/home.svg" alt="icon">
-                                <a href="#">Home</a>
+                                <a href="#">
+                                    <img src="icons/navigation/home.svg" alt="icon">
+                                    <p>Home</p>
+                                </a>
                             </div>
                         </li>
                         <li class="nav-link">
                             <div class="nav-link-container">
-                                <img src="./icons/profile.svg" alt="icon">
-                                <a href="#">Profile</a>
+                                <a href="#">
+                                    <img src="icons/navigation/profile.svg" alt="icon">
+                                    <p>Profile</p>
+                                </a>
                             </div>
                         </li>
                         <li class="nav-link">
                             <div class="nav-link-container">
-                                <img src="./icons/messages.svg" alt="icon">
-                                <a href="#">Messages</a>
+                                <a href="#">
+                                    <img src="icons/navigation/messages.svg" alt="icon">
+                                    <p>Messages</p>
+                                </a>
                             </div>
                         </li>
                         <li class="nav-link">
                             <div class="nav-link-container">
-                                <img src="./icons/history.svg" alt="icon">
-                                <a href="#">History</a>
+                                <a href="#">
+                                    <img src="icons/navigation/history.svg" alt="icon">
+                                    <p>History</p>
+                                </a>
                             </div>
                         </li>
                         <li class="nav-link">
                             <div class="nav-link-container">
-                                <img src="./icons/tasks.svg" alt="icon">
-                                <a href="#">Tasks</a>
+                                <a href="#">
+                                        <img src="icons/navigation/tasks.svg" alt="icon">
+                                        <p>Tasks</p>
+                                </a>
                             </div>
                         </li>
                         <li class="nav-link">
                             <div class="nav-link-container">
-                                <img src="./icons/community.svg" alt="icon">
-                                <a href="#">Communities</a>
+                                <a href="#">
+                                    <img src="icons/navigation/community.svg" alt="icon">
+                                    <p>Communities</p>
+                                </a>
                             </div>
                         </li>
                     </ul>
@@ -56,20 +70,26 @@
                     <ul>
                         <li class="nav-link">
                             <div class="nav-link-container">
-                                <img src="./icons/security.svg" alt="icon">
-                                <a href="#">Settings</a>
+                                <a href="#">
+                                    <img src="icons/navigation/security.svg" alt="icon">
+                                    <p>Settings</p>
+                                </a>
                             </div>
                         </li>
                         <li class="nav-link">
                             <div class="nav-link-container">
-                                <img src="./icons/help.svg" alt="icon">
-                                <a href="#">Support</a>
+                                <a href="#">
+                                    <img src="icons/navigation/help.svg" alt="icon">
+                                    <p>Support</p>
+                                </a>
                             </div>
                         </li>
                         <li class="nav-link">
                             <div class="nav-link-container">
-                                <img src="./icons/security.svg" alt="icon">
-                                <a href="#">Privacy</a>
+                                <a href="#">
+                                    <img src="icons/navigation/security.svg" alt="icon">
+                                    <p>Privacy</p>
+                                </a>
                             </div>
                         </li>
                     </ul>
@@ -77,7 +97,187 @@
             </nav>
         </header>
         <main>
-            <h1>Test</h1>
+            <div class="content">
+                <div class="header">
+                    <div class="row first-row">
+                        <img class="icon" src="icons/dashboard/search.svg" alt="icon">
+                        <input type="text">
+                        <img class="icon" src="icons/dashboard/notification.svg" alt="icon">
+                        <img class="profile" src="icons/dashboard/profile.svg" alt="icon">
+                        <h3>Morgan Oakley</h3>
+                    </div>
+                    <div class="row second-row">
+                        <div class="section">
+                            <img class="large-profile" src="icons/dashboard/profile.svg" alt="icon">
+                        </div>
+                        <div class="section">
+                            <h5>Hi there,</h5>
+                            <h2>Morgan Oakley (@morgan)</h2>
+                        </div>
+                        <div class="section">
+                            <button class="control-btn">New</button>
+                        </div>
+                        <div class="section">
+                            <button class="control-btn">Upload</button>
+                        </div>
+                        <div class="section">
+                            <button class="control-btn">Share</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="projects">
+                        <h3>Your Projects</h3>
+                        <div class="cards">
+                            <div class="card">
+                                <div class="card-content">
+                                    <h3>Super Cool Project</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                                    </p>
+                                </div>
+                                <div class="card-controls">
+                                    <button class="card-control"><img src="icons/dashboard/star.svg" alt="icon"></button>
+                                    <button class="card-control"><img src="icons/dashboard/eye.svg" alt="icon"></button>
+                                    <button class="card-control"><img src="icons/dashboard/share.svg" alt="icon"></button>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-content">
+                                    <h3>Less Cool Project</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                                    </p>
+                                </div>
+                                <div class="card-controls">
+                                    <button class="card-control"><img src="icons/dashboard/star.svg" alt="icon"></button>
+                                    <button class="card-control"><img src="icons/dashboard/eye.svg" alt="icon"></button>
+                                    <button class="card-control"><img src="icons/dashboard/share.svg" alt="icon"></button>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-content">
+                                    <h3>Impossible App</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                                    </p>
+                                </div>
+                                <div class="card-controls">
+                                    <button class="card-control"><img src="icons/dashboard/star.svg" alt="icon"></button>
+                                    <button class="card-control"><img src="icons/dashboard/eye.svg" alt="icon"></button>
+                                    <button class="card-control"><img src="icons/dashboard/share.svg" alt="icon"></button>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-content">
+                                    <h3>Easy Peasy App</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                                    </p>
+                                </div>
+                                <div class="card-controls">
+                                    <button class="card-control"><img src="icons/dashboard/star.svg" alt="icon"></button>
+                                    <button class="card-control"><img src="icons/dashboard/eye.svg" alt="icon"></button>
+                                    <button class="card-control"><img src="icons/dashboard/share.svg" alt="icon"></button>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-content">
+                                    <h3>Ad Blocker</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                                    </p>
+                                </div>
+                                <div class="card-controls">
+                                    <button class="card-control"><img src="icons/dashboard/star.svg" alt="icon"></button>
+                                    <button class="card-control"><img src="icons/dashboard/eye.svg" alt="icon"></button>
+                                    <button class="card-control"><img src="icons/dashboard/share.svg" alt="icon"></button>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-content">
+                                    <h3>Money Maker</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                                    </p>
+                                </div>
+                                <div class="card-controls">
+                                    <button class="card-control"><img src="icons/dashboard/star.svg" alt="icon"></button>
+                                    <button class="card-control"><img src="icons/dashboard/eye.svg" alt="icon"></button>
+                                    <button class="card-control"><img src="icons/dashboard/share.svg" alt="icon"></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sidebar">
+                        <div class="sidebar-container">
+                            <h3>Announcements</h3>
+                            <div class="side-card-container">
+                                <div class="side-card border-btm">
+                                    <h4>Site Maintenance</h4>
+                                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit, sed do eiusmod tempor incididunt ut labore et
+                                        dolore magna aliqua...
+                                    </p>
+                                </div>
+                                <div class="side-card">
+                                    <h4>Community Share Day</h4>
+                                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit, sed do eiusmod tempor incididunt ut labore et
+                                        dolore magna aliqua...
+                                    </p>
+                                </div>
+                                <div class="side-card border-tp">
+                                    <h4>Updated Privacy Policy</h4>
+                                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit, sed do eiusmod tempor incididunt ut labore et
+                                        dolore magna aliqua...
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sidebar-container">
+                            <h3>Trending</h3>
+                            <div class="trending-container">
+                                <div class="trending-row">
+                                    <img src="icons/dashboard/profile.svg" alt="img">
+                                    <div class="trending-text">
+                                        <h3>@tegan</h3>
+                                        <p>World Peace Builder</p>
+                                    </div>
+                                </div>
+                                <div class="trending-row">
+                                    <img src="icons/dashboard/profile.svg" alt="img">
+                                    <div class="trending-text">
+                                        <h3>@tegan</h3>
+                                        <p>World Peace Builder</p>
+                                    </div>
+                                </div>
+                                <div class="trending-row">
+                                    <img src="icons/dashboard/profile.svg" alt="img">
+                                    <div class="trending-text">
+                                        <h3>@tegan</h3>
+                                        <p>World Peace Builder</p>
+                                    </div>
+                                </div>
+                                <div class="trending-row">
+                                    <img src="icons/dashboard/profile.svg" alt="img">
+                                    <div class="trending-text">
+                                        <h3>@tegan</h3>
+                                        <p>World Peace Builder</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </main>
     </body>
 </html>

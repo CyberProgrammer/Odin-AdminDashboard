@@ -1,29 +1,33 @@
+@font-face {
+    font-family: "Roboto Condensed";
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+html{
+    background-color: #717478;
+}
+
 body{
     display: flex;
+    justify-content: center;
     height: 100vh;
+    max-width: 1920px;
+    margin: auto;
+    overflow: hidden;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 header{
     width: 300px;
-    background-color: lightblue;
+    background-color: #1992d4;
 }
 
 main{
     width: calc(100% - 250px);
-    background-color: lightcoral;
 }
 
-.nav-header{
-    display: flex;
-}
-
-.nav-link img, header img{
-    width: 40px;
-    height: 40px;
-}
